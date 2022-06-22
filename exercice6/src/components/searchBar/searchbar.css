@@ -1,0 +1,33 @@
+.containerBar{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem
+}
+
+.searchBar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.sbButton{
+    background-color:#34eebf;
+    padding: .2rem .5rem;
+    color: #fff;
+
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bouton{
+    border: 1px solid #9aff9a;
+    background-color: #383838;
+    padding: .2rem .5rem;
+    color: #fff;
+}
