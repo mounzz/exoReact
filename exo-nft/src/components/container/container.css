@@ -1,0 +1,11 @@
+.container{
+    background-color: #15273f;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    gap: 2rem;
+    width: 19rem;
+    height: 35rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

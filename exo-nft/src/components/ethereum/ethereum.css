@@ -1,0 +1,7 @@
+.ethereum{
+    color:#00eff1;
+    text-transform: uppercase;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}

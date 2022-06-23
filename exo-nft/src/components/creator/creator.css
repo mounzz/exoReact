@@ -1,0 +1,23 @@
+.containerCreator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border-top: 1px solid #2f4159;
+    color: #95accb;
+    gap: .5rem;
+    align-items: center;
+}
+
+.creatorName{
+    color: #fff;
+}
+.creatorName:hover{
+    color: aqua;
+}
+
+.picCreator{
+    width: 2.5rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}

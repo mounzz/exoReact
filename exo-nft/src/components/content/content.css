@@ -1,0 +1,22 @@
+.containerTitle{
+    color: #95accb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%
+}
+
+.title{
+    font-weight: 200;
+    color: #fff;
+    font-size: 20px;
+}
+
+.title:hover{
+    color:aqua;
+}
+
+p{
+    font-size: 16px;
+}
