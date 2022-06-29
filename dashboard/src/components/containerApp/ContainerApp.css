@@ -1,0 +1,7 @@
+.containerApp{
+    width: 70rem;
+    height: 35rem;
+    margin: 10rem auto;
+    display: flex;
+    gap: 1rem;
+}
