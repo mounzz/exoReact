@@ -19,6 +19,15 @@ class App extends React.Component {
        
       });
       this.longueurTab = this.state.elements.length;
+      this.changeColor();
+    }
+
+    changeColor(){
+      if(this.longueurTab === 1){
+        document.body.style.backgroundColor = "orange";
+      }else if(this.longueurTab === 0){
+        document.body.style.backgroundColor = "red";
+      }
     }
     
     
