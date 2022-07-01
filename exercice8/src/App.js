@@ -1,39 +1,57 @@
 import React from "react";
+import Perso from "./components/perso";
 
 class App extends React.Component {
-  constructor(props){
+
+  constructor(props) {
     super(props);
     this.state = {
       personnage1:{
-        nom: "nom",
-        prenom: "prenom",
-        age: "21",
-        phrase: "hoho",
+          nom: "snow",
+          prenom: "jon",
+          age: "15 ans",
       },
-  
       personnage2:{
-        nom: "nom2",
-        prenom: "prenom2",
-        age: "22",
-        phrase: "hihi",
+          nom: "stark",
+          prenom: "arya",
+          age: "9 ans",
       },
-  
       personnage3:{
-        nom: "nom3",
-        prenom: "prenom3",
-        age: "23",
-        phrase: "haha",
+          nom: "stark",
+          prenom: "robb",
+          age: "15 ans",
       }
-  
+  }
+  }
+
+  ChangeContentParent = () => {
+    this.setState({
+      personnage1:{
+        nom: "snow",
+        prenom: "ramsay",
+        age: "19 ans",
+    },
+    personnage2:{
+        nom: "stark",
+        prenom: "sansa",
+        age: "12 ans",
+    },
+    personnage3:{
+        nom: "stark",
+        prenom: "eddard",
+        age: "36 ans",
     }
-  
-}
-  render(){
+    })
+  }
+
+  render() {
     return (
       <div className="App">
-          {this.state.personnage1.phrase}
-          {this.state.personnage2.phrase}
-          {this.state.personnage3.phrase}
+        <Perso 
+        perso1={this.state.personnage1}
+        perso2={this.state.personnage2}
+        perso3={this.state.personnage3}
+        changeContent={this.ChangeContentParent}/> 
       </div>
     );
   }
